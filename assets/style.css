@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8rem;
+    gap: 10rem;
     background-color: #000;
     animation: fadeIn 1.5s ease-out
 }
