@@ -97,7 +97,7 @@ span {
     cursor: pointer;
     opacity: 0;
     animation: slideIn 1s ease-out forwards 1.1s
-    margin: 30 px
+    margin: 30 px;
 }
 
 .btn:hover {
