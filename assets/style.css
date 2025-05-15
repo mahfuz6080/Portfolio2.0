@@ -1,0 +1,274 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 56.25%; /* 1rem = 9px */
+    overflow-x: hidden;
+}
+
+body {
+    background: #1f242d;
+    color: #fff;
+}
+
+/* Sections */
+section {
+    min-height: 80vh;
+    padding: 3rem 5%;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 5%;
+    background: #1f242d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2.4rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a {
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #0ef;
+}
+
+/* Home section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.home-content {
+    flex: 1;
+    text-align: center;
+}
+
+.home-content h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 1.2rem;
+}
+
+.typing-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0ef;
+}
+
+.home-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 1.3rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: #0ef;
+    border-radius: 4px;
+    box-shadow: 0 0 0.8rem #0ef;
+    font-size: 1.2rem;
+    color: #1f242d;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .3s ease;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+.home-img img {
+    width: 24vw;
+    border-radius: 50%;
+}
+
+/* About section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-left,
+.about-right {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-left img {
+    max-width: 80%;
+    height: auto;
+}
+
+.heading {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.about-right h2 {
+    font-size: 2.6rem;
+}
+
+.about-right h3 {
+    font-size: 2rem;
+    color: #0ef;
+}
+
+.about-right p {
+    font-size: 1.2rem;
+    margin: 1.5rem 0 2rem;
+}
+
+/* Skills section */
+.skills .heading {
+    margin-bottom: 3rem;
+}
+
+.skill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.skill-card {
+    background: #323946;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    width: 240px;
+    text-align: center;
+    box-shadow: 0 0 0.8rem #0ef;
+}
+
+.skill-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #0ef;
+}
+
+.skill-item {
+    font-size: 1.2rem;
+    margin: 0.3rem 0;
+}
+
+/* Services section */
+.services {
+    padding: 5rem 5% 3rem;
+}
+
+.services .heading {
+    margin-bottom: 3rem;
+}
+
+.services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.services-card {
+    background: #323946;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    width: 240px;
+    text-align: center;
+    box-shadow: 0 0 0.8rem #0ef;
+}
+
+.services-card h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0ef;
+}
+
+.services-description {
+    font-size: 1.2rem;
+}
+
+/* Contact section */
+.contact {
+    text-align: center;
+    padding: 3rem 5%;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+    background: #323946;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 5%;
+    font-size: 1.1rem;
+}
+
+.social-icons {
+    margin-top: 1.5rem;
+}
+
+.social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    background: #0ef;
+    color: #1f242d;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin: 0 0.5rem;
+    transition: background .3s;
+}
+
+.social-icons a:hover {
+    background: #0dc;
+}
